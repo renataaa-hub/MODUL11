@@ -1,0 +1,60 @@
+// Fonts
+//@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+//@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+:root {
+    --pink-primary: #c14e69;
+    --blue-primary: #677fcd;
+    --pink-light: #d9929d;
+    --blue-light: #8db5d1;
+}
+
+body {
+    background-color: #bcc4cb;
+     }
+
+
+.gradient-header {
+    background: linear-gradient(135deg, var(--pink-primary), var(--blue-primary));
+    color: #521111;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.card-custom {
+    border: none;
+    box-shadow: 0 4px 6px #0000001a;
+}
+
+
+.card-custom:hover {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.btn-pink-blue {
+    background: linear-gradient(to right, var(--pink-light), var(--blue-light));
+    color: white;
+    border: none;
+}
+
+.btn-pink-blue:hover {
+    opacity: 0.9;
+    color: white;
+}
+
+.section-divider {
+    background: linear-gradient(to right, var(--pink-light), var(--blue-light));
+    height: 5px;
+    width: 100%;
+}
+
+.bg-pink {
+    background-color: var(--pink-primary);
+    color: white;
+}
